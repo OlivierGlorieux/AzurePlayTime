@@ -79,8 +79,7 @@
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[parameters('virtualMachines_10979F0501_vm_id')]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "diskSizeGB": 32
                     },
