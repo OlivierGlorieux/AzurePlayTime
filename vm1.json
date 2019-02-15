@@ -47,15 +47,9 @@
             "properties": {
                 "platformUpdateDomainCount": 5,
                 "platformFaultDomainCount": 2,
-                "virtualMachines": [
-                    {
-                        "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_10979F0501_vm_name'))]"
-                    }
-                ]
+                "virtualMachines": []
             },
-            "dependsOn": [
-                "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_10979F0501_vm_name'))]"
-            ]
+            "dependsOn": []
         },
         {
             "comments": "Generalized from resource: '/subscriptions/c4fb9d53-1c31-46a9-82b5-26e1f0922e43/resourceGroups/10979F0501-LabRG/providers/Microsoft.Compute/virtualMachines/10979F0501-vm'.",
