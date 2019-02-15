@@ -7,7 +7,7 @@
             "type": "String"
         },
         "virtualMachines_10979F0501_vm_name": {
-            "defaultValue": "10979F0501-vm",
+            "defaultValue": "10979F0501-vm1",
             "type": "String"
         },
         "availabilitySets_10979F0501_avSet_name": {
